@@ -1,0 +1,92 @@
+nav {
+    background-color: rgb(36, 36, 36);;
+}
+
+a.active {
+    color: rgb(235, 235, 235);
+}
+
+a.inactive {
+    color: rgb(165, 165, 165);
+}
+
+a.active:hover {
+    color: rgb(235, 235, 235);
+}
+
+a.inactive:hover {
+    color: rgb(235, 235, 235);
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(36, 36, 36);
+}
+
+span{
+    color:rgb(235, 235, 235);
+}
+
+li{
+    color:rgb(235, 235, 235) !important;
+}
+
+i{
+    color:rgb(235, 235, 235) !important;
+}
+
+.about-me{
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(46, 46, 46);
+    font-size: 40px;
+    }
+
+.card{
+    background-color:rgb(36, 36, 36);
+    border-radius: 0px;
+    border:1px rgb(102, 102, 102) solid;
+    color:rgb(235, 235, 235);
+}
+
+.card > img{
+    border-radius: 0px;;
+}
+
+.challenge-img:hover {
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.footer{
+    background-color: rgb(46, 46, 46);
+}
+
+input, textarea {
+    border-radius: 0px !important;
+    border:1px rgb(102, 102, 102) solid !important;
+    background-color: rgb(36, 36, 36) !important;
+    color: white !important;
+}
+
+input::placeholder, textarea::placeholder {
+    color:white !important;
+ }
+
+button.btn {
+    border-radius: 0px !important;
+    border:1px rgb(102, 102, 102) solid !important;
+    background-color: rgb(36, 36, 36) !important;
+    color: white !important;
+}
+
+button.btn:hover {
+    border-radius: 0px !important;
+    border:1px rgb(102, 102, 102) solid !important;
+    background-color: white !important;
+    color: rgb(36, 36, 36) !important;
+}
